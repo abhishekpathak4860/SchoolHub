@@ -119,7 +119,7 @@ export default function SchoolsPage() {
                     <img
                       src={
                         school.image
-                          ? `/schoolImages/${school.image}`
+                          ? `/${school.image}`
                           : "/placeholder-school.jpg"
                       } // Fallback image logic recommended
                       alt={school.name}
